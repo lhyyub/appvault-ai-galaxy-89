@@ -45,9 +45,9 @@ const Index = () => {
       </section>
 
       {/* Features Section */}
-      <section id="features" className="py-20 px-4 bg-white">
+      <section id="features" className="py-20 px-4 bg-secondary">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-12">Mobile AI Features</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-primary">Mobile AI Features</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
@@ -81,10 +81,10 @@ const Index = () => {
                 description: "Full functionality without internet"
               }
             ].map((feature, index) => (
-              <div key={index} className="p-6 border rounded-lg hover:shadow-lg transition-shadow">
+              <div key={index} className="p-6 border rounded-lg bg-card hover:shadow-lg transition-shadow">
                 <div className="mb-4">{feature.icon}</div>
-                <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
-                <p className="text-muted-foreground">{feature.description}</p>
+                <h3 className="text-xl font-semibold mb-2 text-primary">{feature.title}</h3>
+                <p className="text-primary/80">{feature.description}</p>
               </div>
             ))}
           </div>
