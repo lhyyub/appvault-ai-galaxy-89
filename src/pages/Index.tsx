@@ -40,38 +40,38 @@ const Index = () => {
       {/* Features Section */}
       <section id="features" className="py-20 px-4 bg-gradient-to-br from-secondary to-background">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-12 text-primary">Mobile AI Features</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-primary">Cool Features for You</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
                 icon: <Phone className="h-8 w-8 text-primary" />,
                 title: "Native Mobile",
-                description: "Built specifically for iOS and Android devices"
+                description: "Seamlessly works on your iOS and Android devices"
               },
               {
                 icon: <Brain className="h-8 w-8 text-primary" />,
                 title: "AI-Powered",
-                description: "Advanced machine learning on your mobile device"
+                description: "Smart features that make your life easier"
               },
               {
                 icon: <Zap className="h-8 w-8 text-primary" />,
-                title: "Fast Performance",
-                description: "Optimized for quick response times"
+                title: "Lightning Fast",
+                description: "Instant responses when you need them"
               },
               {
                 icon: <Shield className="h-8 w-8 text-primary" />,
-                title: "Secure",
-                description: "Enterprise-grade security for your data"
+                title: "Private & Secure",
+                description: "Your data stays on your device"
               },
               {
                 icon: <Bot className="h-8 w-8 text-primary" />,
                 title: "Smart Assistant",
-                description: "24/7 AI assistance in your pocket"
+                description: "Your personal AI helper, always ready"
               },
               {
                 icon: <Sparkles className="h-8 w-8 text-primary" />,
-                title: "Offline Mode",
-                description: "Full functionality without internet"
+                title: "Works Offline",
+                description: "Use your apps anywhere, anytime"
               }
             ].map((feature, index) => (
               <div key={index} className="p-6 border rounded-lg bg-gradient-to-br from-card to-secondary/50 hover:shadow-lg transition-shadow">
@@ -89,8 +89,8 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             {[
-              { number: "1M+", label: "Mobile App Downloads" },
-              { number: "50+", label: "AI Mobile Apps" },
+              { number: "1M+", label: "Happy Users" },
+              { number: "50+", label: "Cool AI Apps" },
               { number: "99%", label: "User Satisfaction" }
             ].map((stat, index) => (
               <div key={index}>
