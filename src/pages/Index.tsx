@@ -89,8 +89,8 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             {[
-              { number: "1M+", label: "Happy Users" },
-              { number: "50+", label: "Cool AI Apps" },
+              { number: "0", label: "Happy Users" },
+              { number: "3", label: "Cool AI Apps" },
               { number: "99%", label: "User Satisfaction" }
             ].map((stat, index) => (
               <div key={index}>
