@@ -18,7 +18,7 @@ const Index = () => {
                 Mobile Apps
               </h1>
               <p className="text-xl text-primary/80 mb-8 max-w-2xl fade-in">
-                We specialize in developing cutting-edge mobile AI applications that transform how users interact with technology.
+                We specialize in developing cutting-edge consumer AI applications that enhance your daily mobile experience.
               </p>
             </div>
             <div className="flex-1 relative fade-in">
