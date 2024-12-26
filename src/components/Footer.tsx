@@ -6,7 +6,7 @@ export const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-2xl font-bold text-foreground">AppVault</h3>
+            <h3 className="text-2xl font-bold text-foreground">App Vault</h3>
             <p className="mt-2 text-muted-foreground">
               Making cool AI apps that make your life more awesome.
             </p>
@@ -38,7 +38,7 @@ export const Footer = () => {
         </div>
         
         <div className="mt-8 pt-8 border-t border-border text-center text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} AppVault. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} App Vault Inc. All rights reserved.</p>
         </div>
       </div>
     </footer>
