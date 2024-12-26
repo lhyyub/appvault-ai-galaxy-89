@@ -23,12 +23,12 @@ const Index = () => {
             </div>
             <div className="flex-1 relative fade-in">
               <img
-                src="https://www.dropbox.com/scl/fi/ghinggajhyfxjc6xxdezp/DALL-E-2024-12-26-08.59.52-A-luxurious-product-photography-image-showcasing-an-orange-and-rice-based-beauty-cream.-The-setup-features-a-small-elegant-glass-jar-filled-with-a-smo.jpg?rlkey=j8izi6op4psadtz5ij6cvltu3&st=kcadkokw&dl=1"
+                src="https://www.dropbox.com/scl/fi/3me0rm79iw7607hidnkqv/Recipe-View.png?rlkey=2mzi9mep5yv3s431u7jyu716e&st=h7sa5lwx&dl=1"
                 alt="Mobile App Demo"
                 className="rounded-lg shadow-xl max-w-sm mx-auto transform -rotate-6"
               />
               <img
-                src="https://www.dropbox.com/scl/fi/ghinggajhyfxjc6xxdezp/DALL-E-2024-12-26-08.59.52-A-luxurious-product-photography-image-showcasing-an-orange-and-rice-based-beauty-cream.-The-setup-features-a-small-elegant-glass-jar-filled-with-a-smo.jpg?rlkey=j8izi6op4psadtz5ij6cvltu3&st=kcadkokw&dl=1"
+                src="https://www.dropbox.com/scl/fi/8t8vvthzxbrvgeaaf0vpw/Screenshot-2024-12-26-at-5.36.29-PM.jpeg?rlkey=9r4tm1m83ru5hfs74ll26bh5r&st=d2i7e025&dl=1"
                 alt="Mobile App Interface"
                 className="rounded-lg shadow-xl max-w-xs absolute top-20 right-0 transform rotate-6 hidden md:block"
               />
