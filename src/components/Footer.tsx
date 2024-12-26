@@ -8,21 +8,21 @@ export const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-2xl font-bold text-foreground">AppVault</h3>
             <p className="mt-2 text-muted-foreground">
-              Specializing in developing innovative AI applications that transform businesses.
+              Making cool AI apps that make your life more awesome.
             </p>
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4 text-foreground">Links</h4>
+            <h4 className="font-semibold mb-4 text-foreground">Quick Links</h4>
             <ul className="space-y-2">
-              <li><a href="#features" className="text-muted-foreground hover:text-foreground">Features</a></li>
+              <li><a href="#features" className="text-muted-foreground hover:text-foreground">Cool Features</a></li>
               <li><a href="#apps" className="text-muted-foreground hover:text-foreground">Our Apps</a></li>
-              <li><a href="#about" className="text-muted-foreground hover:text-foreground">About</a></li>
+              <li><a href="#about" className="text-muted-foreground hover:text-foreground">About Us</a></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4 text-foreground">Connect</h4>
+            <h4 className="font-semibold mb-4 text-foreground">Find Us</h4>
             <div className="flex space-x-4">
               <a href="#" className="text-muted-foreground hover:text-foreground">
                 <Twitter className="h-6 w-6" />
