@@ -1,6 +1,5 @@
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
-import { Button } from "@/components/ui/button";
 import { Brain, Sparkles, Bot, Cpu, Phone, Shield, Zap } from "lucide-react";
 
 const Index = () => {
@@ -21,12 +20,6 @@ const Index = () => {
               <p className="text-xl text-primary/80 mb-8 max-w-2xl fade-in">
                 We specialize in developing cutting-edge mobile AI applications that transform how users interact with technology.
               </p>
-              <div className="space-x-4 fade-in">
-                <Button size="lg" variant="secondary">Download Now</Button>
-                <Button size="lg" variant="outline" className="text-primary border-primary hover:bg-primary/10">
-                  View Apps
-                </Button>
-              </div>
             </div>
             <div className="flex-1 relative fade-in">
               <img
