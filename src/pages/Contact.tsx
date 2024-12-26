@@ -44,21 +44,21 @@ const Contact = () => {
                   <Mail className="h-6 w-6 text-primary" />
                   <div>
                     <h3 className="font-semibold text-primary">Email</h3>
-                    <p className="text-primary/80">contact@appvault.com</p>
+                    <p className="text-primary/80">email@app-vault.org</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
                   <Phone className="h-6 w-6 text-primary" />
                   <div>
                     <h3 className="font-semibold text-primary">Phone</h3>
-                    <p className="text-primary/80">+1 (555) 123-4567</p>
+                    <p className="text-primary/80">+33 771476804</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
                   <MapPin className="h-6 w-6 text-primary" />
                   <div>
                     <h3 className="font-semibold text-primary">Location</h3>
-                    <p className="text-primary/80">San Francisco, CA</p>
+                    <p className="text-primary/80">Casablanca, Morocco</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
