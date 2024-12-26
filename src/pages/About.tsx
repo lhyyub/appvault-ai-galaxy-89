@@ -25,7 +25,7 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952"
+                src="https://www.dropbox.com/scl/fi/8t8vvthzxbrvgeaaf0vpw/Screenshot-2024-12-26-at-5.36.29-PM.jpeg?rlkey=9r4tm1m83ru5hfs74ll26bh5r&st=m9fpl3bi&dl=1"
                 alt="Our Team"
                 className="rounded-lg shadow-xl"
               />
