@@ -18,54 +18,54 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-background">
       <Navigation />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 hero-gradient">
+      <section className="pt-32 pb-20 px-4 bg-gradient-to-br from-background to-secondary">
         <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 fade-in">
+          <h1 className="text-4xl md:text-6xl font-bold text-primary mb-6 fade-in">
             Contact Us
           </h1>
-          <p className="text-xl text-white/80 mb-8 max-w-2xl fade-in">
+          <p className="text-xl text-primary/80 mb-8 max-w-2xl fade-in">
             Get in touch with our team to learn more about our mobile AI solutions.
           </p>
         </div>
       </section>
 
       {/* Contact Section */}
-      <section className="py-20 px-4 bg-white">
+      <section className="py-20 px-4 bg-gradient-to-br from-secondary to-background">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div>
-              <h2 className="text-3xl font-bold mb-8">Get in Touch</h2>
+              <h2 className="text-3xl font-bold mb-8 text-primary">Get in Touch</h2>
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
                   <Mail className="h-6 w-6 text-primary" />
                   <div>
-                    <h3 className="font-semibold">Email</h3>
-                    <p className="text-muted-foreground">contact@appvault.com</p>
+                    <h3 className="font-semibold text-primary">Email</h3>
+                    <p className="text-primary/80">contact@appvault.com</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
                   <Phone className="h-6 w-6 text-primary" />
                   <div>
-                    <h3 className="font-semibold">Phone</h3>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <h3 className="font-semibold text-primary">Phone</h3>
+                    <p className="text-primary/80">+1 (555) 123-4567</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
                   <MapPin className="h-6 w-6 text-primary" />
                   <div>
-                    <h3 className="font-semibold">Location</h3>
-                    <p className="text-muted-foreground">San Francisco, CA</p>
+                    <h3 className="font-semibold text-primary">Location</h3>
+                    <p className="text-primary/80">San Francisco, CA</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
                   <MessageSquare className="h-6 w-6 text-primary" />
                   <div>
-                    <h3 className="font-semibold">Support</h3>
-                    <p className="text-muted-foreground">24/7 Customer Service</p>
+                    <h3 className="font-semibold text-primary">Support</h3>
+                    <p className="text-primary/80">24/7 Customer Service</p>
                   </div>
                 </div>
               </div>
@@ -74,15 +74,15 @@ const Contact = () => {
             <div>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium mb-2">Name</label>
+                  <label htmlFor="name" className="block text-sm font-medium text-primary mb-2">Name</label>
                   <Input id="name" placeholder="Your name" required />
                 </div>
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium mb-2">Email</label>
+                  <label htmlFor="email" className="block text-sm font-medium text-primary mb-2">Email</label>
                   <Input id="email" type="email" placeholder="your@email.com" required />
                 </div>
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium mb-2">Message</label>
+                  <label htmlFor="message" className="block text-sm font-medium text-primary mb-2">Message</label>
                   <Textarea
                     id="message"
                     placeholder="How can we help?"
