@@ -23,7 +23,12 @@ const About = () => {
       <section className="py-20 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div>
+            <div className="space-y-6">
+              <img
+                src="https://www.dropbox.com/scl/fi/8t8vvthzxbrvgeaaf0vpw/Screenshot-2024-12-26-at-5.36.29-PM.jpeg?rlkey=9r4tm1m83ru5hfs74ll26bh5r&st=xrq2aj4p&dl=1"
+                alt="Mobile App Development"
+                className="rounded-lg shadow-xl mb-6"
+              />
               <img
                 src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952"
                 alt="Our Team"
