@@ -23,12 +23,12 @@ const Index = () => {
             </div>
             <div className="flex-1 relative fade-in">
               <img
-                src="https://images.unsplash.com/photo-1434494878577-86c23bcb06b9"
+                src="https://www.dropbox.com/scl/fi/ghinggajhyfxjc6xxdezp/DALL-E-2024-12-26-08.59.52-A-luxurious-product-photography-image-showcasing-an-orange-and-rice-based-beauty-cream.-The-setup-features-a-small-elegant-glass-jar-filled-with-a-smo.jpg?rlkey=j8izi6op4psadtz5ij6cvltu3&st=kcadkokw&dl=1"
                 alt="Mobile App Demo"
                 className="rounded-lg shadow-xl max-w-sm mx-auto transform -rotate-6"
               />
               <img
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
+                src="https://www.dropbox.com/scl/fi/ghinggajhyfxjc6xxdezp/DALL-E-2024-12-26-08.59.52-A-luxurious-product-photography-image-showcasing-an-orange-and-rice-based-beauty-cream.-The-setup-features-a-small-elegant-glass-jar-filled-with-a-smo.jpg?rlkey=j8izi6op4psadtz5ij6cvltu3&st=kcadkokw&dl=1"
                 alt="Mobile App Interface"
                 className="rounded-lg shadow-xl max-w-xs absolute top-20 right-0 transform rotate-6 hidden md:block"
               />
