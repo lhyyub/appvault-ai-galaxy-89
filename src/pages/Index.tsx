@@ -9,21 +9,21 @@ const Index = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="hero-gradient pt-32 pb-20 px-4">
+      <section className="pt-32 pb-20 px-4 bg-gradient-to-br from-background to-secondary">
         <div className="max-w-7xl mx-auto text-center">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="flex-1 text-left">
-              <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 fade-in">
+              <h1 className="text-4xl md:text-6xl font-bold text-primary mb-6 fade-in">
                 AI-Powered
                 <br />
                 Mobile Apps
               </h1>
-              <p className="text-xl text-white/80 mb-8 max-w-2xl fade-in">
+              <p className="text-xl text-primary/80 mb-8 max-w-2xl fade-in">
                 We specialize in developing cutting-edge mobile AI applications that transform how users interact with technology.
               </p>
               <div className="space-x-4 fade-in">
                 <Button size="lg" variant="secondary">Download Now</Button>
-                <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/10">
+                <Button size="lg" variant="outline" className="text-primary border-primary hover:bg-primary/10">
                   View Apps
                 </Button>
               </div>
@@ -45,7 +45,7 @@ const Index = () => {
       </section>
 
       {/* Features Section */}
-      <section id="features" className="py-20 px-4 bg-secondary">
+      <section id="features" className="py-20 px-4 bg-gradient-to-br from-secondary to-background">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-12 text-primary">Mobile AI Features</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -81,7 +81,7 @@ const Index = () => {
                 description: "Full functionality without internet"
               }
             ].map((feature, index) => (
-              <div key={index} className="p-6 border rounded-lg bg-card hover:shadow-lg transition-shadow">
+              <div key={index} className="p-6 border rounded-lg bg-gradient-to-br from-card to-secondary/50 hover:shadow-lg transition-shadow">
                 <div className="mb-4">{feature.icon}</div>
                 <h3 className="text-xl font-semibold mb-2 text-primary">{feature.title}</h3>
                 <p className="text-primary/80">{feature.description}</p>
@@ -92,7 +92,7 @@ const Index = () => {
       </section>
 
       {/* Stats Section */}
-      <section className="py-20 px-4 bg-secondary">
+      <section className="py-20 px-4 bg-gradient-to-br from-background to-secondary">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             {[
@@ -102,7 +102,7 @@ const Index = () => {
             ].map((stat, index) => (
               <div key={index}>
                 <div className="text-4xl font-bold text-primary mb-2">{stat.number}</div>
-                <div className="text-muted-foreground">{stat.label}</div>
+                <div className="text-primary/80">{stat.label}</div>
               </div>
             ))}
           </div>
