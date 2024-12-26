@@ -1,7 +1,7 @@
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { Bot, Brain, Cpu, Sparkles } from "lucide-react";
+import { Brain, Sparkles, Bot, Cpu, Phone, Shield, Zap } from "lucide-react";
 
 const Index = () => {
   return (
@@ -11,19 +11,35 @@ const Index = () => {
       {/* Hero Section */}
       <section className="hero-gradient pt-32 pb-20 px-4">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 fade-in">
-            Transforming Ideas into
-            <br />
-            Intelligent Applications
-          </h1>
-          <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto fade-in">
-            We specialize in developing cutting-edge AI applications that help businesses innovate and grow.
-          </p>
-          <div className="space-x-4 fade-in">
-            <Button size="lg" variant="secondary">Get Started</Button>
-            <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/10">
-              Learn More
-            </Button>
+          <div className="flex flex-col md:flex-row items-center justify-between gap-8">
+            <div className="flex-1 text-left">
+              <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 fade-in">
+                AI-Powered
+                <br />
+                Mobile Apps
+              </h1>
+              <p className="text-xl text-white/80 mb-8 max-w-2xl fade-in">
+                We specialize in developing cutting-edge mobile AI applications that transform how users interact with technology.
+              </p>
+              <div className="space-x-4 fade-in">
+                <Button size="lg" variant="secondary">Download Now</Button>
+                <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/10">
+                  View Apps
+                </Button>
+              </div>
+            </div>
+            <div className="flex-1 relative fade-in">
+              <img
+                src="https://images.unsplash.com/photo-1434494878577-86c23bcb06b9"
+                alt="Mobile App Demo"
+                className="rounded-lg shadow-xl max-w-sm mx-auto transform -rotate-6"
+              />
+              <img
+                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
+                alt="Mobile App Interface"
+                className="rounded-lg shadow-xl max-w-xs absolute top-20 right-0 transform rotate-6 hidden md:block"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -31,28 +47,38 @@ const Index = () => {
       {/* Features Section */}
       <section id="features" className="py-20 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-12">Why Choose AppVault?</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <h2 className="text-3xl font-bold text-center mb-12">Mobile AI Features</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
+              {
+                icon: <Phone className="h-8 w-8 text-primary" />,
+                title: "Native Mobile",
+                description: "Built specifically for iOS and Android devices"
+              },
               {
                 icon: <Brain className="h-8 w-8 text-primary" />,
                 title: "AI-Powered",
-                description: "Cutting-edge artificial intelligence solutions"
+                description: "Advanced machine learning on your mobile device"
               },
               {
-                icon: <Sparkles className="h-8 w-8 text-primary" />,
-                title: "Innovation",
-                description: "Constantly pushing technological boundaries"
+                icon: <Zap className="h-8 w-8 text-primary" />,
+                title: "Fast Performance",
+                description: "Optimized for quick response times"
+              },
+              {
+                icon: <Shield className="h-8 w-8 text-primary" />,
+                title: "Secure",
+                description: "Enterprise-grade security for your data"
               },
               {
                 icon: <Bot className="h-8 w-8 text-primary" />,
-                title: "Automation",
-                description: "Streamline your business processes"
+                title: "Smart Assistant",
+                description: "24/7 AI assistance in your pocket"
               },
               {
-                icon: <Cpu className="h-8 w-8 text-primary" />,
-                title: "Scalability",
-                description: "Solutions that grow with your business"
+                icon: <Sparkles className="h-8 w-8 text-primary" />,
+                title: "Offline Mode",
+                description: "Full functionality without internet"
               }
             ].map((feature, index) => (
               <div key={index} className="p-6 border rounded-lg hover:shadow-lg transition-shadow">
@@ -70,9 +96,9 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             {[
-              { number: "50+", label: "AI Apps Developed" },
-              { number: "1M+", label: "Users Worldwide" },
-              { number: "99%", label: "Client Satisfaction" }
+              { number: "1M+", label: "Mobile App Downloads" },
+              { number: "50+", label: "AI Mobile Apps" },
+              { number: "99%", label: "User Satisfaction" }
             ].map((stat, index) => (
               <div key={index}>
                 <div className="text-4xl font-bold text-primary mb-2">{stat.number}</div>
